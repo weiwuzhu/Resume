@@ -1,0 +1,315 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 
+%% Weiwu Zhu's resume
+%%   - based off work by Michael DeCorte 
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%
+%% The following code sets up the document formatting
+%%
+
+%this assumes that res_yy.sty is in some path
+\documentstyle[hyperref, margin, line]{res_yy}
+
+\hypersetup{backref,pdfpagemode=Full,colorlinks=true,backref}
+
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\voffset}{-0.30in}
+\addtolength{\textwidth}{1.00in} \addtolength{\textheight}{1.50in}
+
+\renewcommand{\namefont}{\LARGE\emph}
+
+
+
+%%
+%% The following code defines some macros for terms which have raised font
+%% (ie 4\fourth would result 4th with the 'th' raised (superscripted)
+%%
+
+\def\Cplusplus{{\rm C\raise.5ex\hbox{\small ++}}}
+\def\CSharp{{\rm C\raise.5ex\hbox{\small \#}}}
+% 'st' 'nd' 'rd' 'th' superscripts for numbers
+\def\first{{\raise.5ex\hbox{\small st}}}
+\def\second{{\raise.5ex\hbox{\small nd}}}
+\def\third{{\raise.5ex\hbox{\small rd}}}
+\def\fourth{{\raise.5ex\hbox{\small th}}}
+
+
+
+%%
+%% starting the actual document
+%%
+
+\begin{document}
+
+%the name in big fonts at the top of resume
+%this is left aligned
+\name{Weiwu Zhu}
+
+%this is right aligned
+\address{
+%No. 5 Dan Ling St. Haidian District, Beijing, 100080, PRC \ \ \ \ \ +86-158-5005-3751 (CN),  weiwuzhu@hotmail.com 
+19039 84th PL NE, Bothell, WA, 98011 \ \ \ \ \ \ \ \ \ \  (206) 886-5178 \ \ \ \ \ \ \ \ \ \  weiwuzhu@hotmail.com 
+}
+
+\begin{resume}
+
+%%\section{\textsc{Objective}}
+%%Seek a position of Software Development Engineer
+
+\vspace*{-20pt}
+\section{\textsc{Education}}
+
+\textbf{Peking University, Beijing, China} \hfill Sep. 2008 - Jun. 2011 \\
+M.S. in Software Engineering\\
+\newline
+\textbf{Wuhan University, Wuhan, China} \hfill Sep. 2004 - Jun. 2008 \\
+B.S. in Software Engineering\\
+
+%\begin{formatb}
+ % \employer{l}\dates{r}\\
+%  \body\\
+%\end{formatb}
+%\vspace*{3pt}
+%\section{\textsc{Awards and Honors}}
+%\employer{\textbf{Annual Von Neumann Award}}
+%\dates{ Jun. 2011}
+%\begin{position}
+%Excellent graduate student
+%\end{position}
+%\vskip -0.2 cm
+%\employer{\textbf{Microsoft Research Asia}}
+%\dates{ Nov. 2010}
+%\begin{position}
+%Certificate of Excellent Internship
+%\end{position}
+%\vskip -0.2 cm
+%\employer{\textbf{Annual Euler Award}}
+%\dates{ Jun. 2009}
+%\begin{position}
+%Excellent graduate student
+%\end{position}
+%\vskip -0.2 cm
+%\employer{\textbf{Singapore-Beijing Modeling Program}}
+%\dates{Jul. 2006}
+%\begin{position}
+%Meritorious Winner
+%\end{position}
+%\vskip -0.2 cm
+%\employer{\textbf{China Mathematical Modeling Contest, Beijing}}
+%\dates{Sep. 2005}
+%\begin{position}
+%Outstanding Winner
+%\end{position}
+%\vskip -0.2 cm
+%\textbf{China SINOPEC Scholarship} \hfill 2004 - 2005
+%\vskip -0.2 cm
+%\employer{\textbf{21st College Physics Contest, Beijing}}
+%\dates{Dec. 2004}
+%\begin{position}
+%3rd Place Award
+%\end{position}
+%\vskip -0.2 cm
+%\employer{\textbf{China National Scholarship}}
+%\dates{2003 - 2004}
+%\begin{position}
+%1st Place Award
+%\end{position}
+
+%%
+%% the meat of the resume starts now
+%%
+
+\begin{formatb}
+  \employer{l}\title{r}\\
+  \location{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+\vspace*{-8pt}
+\section{\textsc{Employment}}
+
+\employer{\textbf{Microsoft}}
+\title{Senior Software Engineer}
+\location{Bellevue, WA, United States}
+\dates{Jan. 2015 - Present}
+\begin{position}
+\vspace*{-8pt}
+\begin{itemize}
+\item Working on Bing \textbf{Local Entity Search} as the \textbf{technical lead}, especially on entity understanding by leveraging \textbf{Deep Learning}, search relevance, and large scale data mining and crawling.
+\end{itemize} 
+\end{position}
+
+\employer{\textbf{Microsoft China}}
+\title{Software Engineer}
+\location{Beijing, China}
+\dates{Jul. 2011 - Dec. 2014}
+\begin{position}
+\vspace*{-8pt}
+\begin{itemize}
+\item Worked on \textbf{Knowledge Graph} cataloging billions of entities and their relationships, and drove Microsoft next generation \textbf{Answer Platform} based on the Knowledge Graph as the \textbf{technical lead}, and enabled inexperienced users to create and ship a new Answer experience on \textbf{Bing} in few hours efficiently.
+\vspace*{-12pt}
+\newline
+\item Worked on the backend algorithm of \textbf{Speech Synthesis} (\textbf{TTS}) engine and \textbf{Natural Language Generation} (\textbf{NLG}) engine for Microsoft \textbf{Cortana}, \textbf{Xbox}, and Nokia Here turn-by-turn navigation.
+\end{itemize} 
+\end{position}
+
+%%\employer{\textbf{Speech Group at Microsoft China}}
+%%\title{Software Development Engineer}
+%%\location{Beijing, China}
+%%\dates{Jul. 2011 - Jul. 2013}
+%%\begin{position}
+%%\vspace*{-4pt}
+%%\begin{itemize}
+%%\item Responsible for the development and maintainance of the backend algorithm of speech synthesis (TTS) engine for Microsoft Conversational Understanding (CU) systems and all %%other products having speech output.
+%%\item Projects: Xbox CU Netflix, Windows Phone 8, Nokia TBT Navigation, Windows 8.1
+%%\item Technique: rich unit selection, non-uniform unit selection, statistical parameter synthesis, hidden markov model (HMM), decision tree, C++
+%%\end{itemize} 
+%%\end{position}
+
+\begin{formatb}
+  \employer{l}\title{r}\\
+  \location{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+\section{\textsc{Experience}}
+
+\employer{\textbf{Speech Group at Microsoft Research Asia}}
+\title{Intern Researcher}
+\location{Beijing, China}
+\dates{Jan. 2010 - Jun. 2011 }
+\begin{position}
+\vspace*{-8pt}
+\begin{itemize}
+\item Research project: Voice Activity Detection for speech recognition in noisy environments.
+\vspace*{-2pt}
+\item Research project: Speech Enhancement using microphone array for speech recognition.
+\end{itemize} 
+\end{position}
+
+%%\employer{\textbf{Community Group at Sogou}}
+%%\title{Intern Developer}
+%%\location{Beijing, China}
+%%\dates{Jul. 2009 - Sep. 2009}
+%%\begin{position}
+%%\vspace*{-4pt}
+%%\begin{itemize}
+%%\item Responsible for the development of Sogou Navigation website (http://123.sogou.com), which had more than 1M page view per day at that time.
+%%\end{itemize}
+%%\end{position}
+
+%%\employer{\textbf{Lotus Division at IBM China}}
+%%\title{Intern Developer}
+%%\location{Beijing, China}
+%%\dates{Jul. 2008 - Sep. 2008}
+%%\begin{position}
+%%\vspace*{-4pt}
+%%\begin{itemize}
+%%\item Responsible for development of Lotus Quicker 8.1 in IBM blue pathway internship program.
+%%\end{itemize}
+%%\end{position}
+%%
+%%\employer{\textbf{Peking University}}
+%%\title{Teaching Assistant}
+%%\location{Beijing, China}
+%%\dates{Mar. 2009 - Jul. 2009}
+%%\begin{position}
+%%\vspace*{-4pt}
+%%\begin{itemize}
+%%\item Responsible for the design and development of music search engine by humming.
+%%\end{itemize}
+%%\end{position}
+
+
+%%
+%% We use the same formatting for projects as for work experience
+%% Shown below is the formatting used previously
+%%
+%%  \begin{formatb}
+%%    \employer{l}\title{r}\\
+%%    \location{l}\dates{r}\\
+%%    \body\\
+%%  \end{formatb}
+%%
+%% 
+%%  Note that \location is now being used for non-location information
+%%
+
+
+%\begin{formatb}
+ % \employer{l}\dates{r}\\
+  %\body\\
+%\end{formatb}
+
+\section{\textsc{Patent}}
+\textbf{Weiwu Zhu}, jointly with Ming Sui \& Shengcai Peng, Language Modeling For Speech Recognition Leveraging Knowledge Graph, {\it WO2016196320}\\
+\vspace*{-4pt}
+\newline
+\textbf{Weiwu Zhu}, jointly with Albert J. Thambiratnam \& Frank T. Seide, Leveraging speech recognition feedback for voice activity detection, {\it United States Patent No. 8,650,029}\\
+
+\vspace*{-8pt}
+\section{\textsc{Publication}}
+\textbf{Weiwu Zhu}, Using Knowledge Graph and Search Query Click Logs in Statistical Language Model For Speech Recognition, {\it InterSpeech 2017}\\
+\vspace*{-6pt}
+\newline
+Kit Thambiratnam, \textbf{Weiwu Zhu}, and Frank Seide, Voice Activity Detection Using Speech Recognizer Feedback, {\it InterSpeech 2012}\\
+
+
+%%
+%% This section could also use more formatting, but looks ok, as is
+%%
+
+%\section{\textsc{Qualifications}}
+
+%\emph{Programming Languages}: \Cplusplus, \CSharp, Cg, HLSL, ARB assembly, SML, OCaML, PHP, MySQL, Java, Python, Perl, MIPS assembly
+
+%\emph{Libraries and Tools}: Vim, STL, DirectX, OpenGL, \LaTeX, GIMP, Adobe Suite, Macromedia Suite, MatLab, Mathematica, Microsoft Visual Studio, GCC, GDB
+
+
+%%
+%% Note that we're redefining the formatting
+%% We only have one row of information now, instead of two
+%%
+
+\vspace*{-12pt}
+\section{\textsc{Award}}
+\textbf{Hack Day in Microsoft Search Technology Center Asia, China} \hfill Apr. 2013 \\
+Category Winner\\
+\newline
+\textbf{Microsoft Research Asia, China} \hfill Jul. 2011 \\
+Certificate of Excellent Internship\\
+\newline
+\textbf{Peking University, China} \hfill 2008 - 2009 \\
+School Scholarship Award\\
+\newline
+\textbf{Programming Contest in Wuhan University, China} \hfill 2007 - 2008 \\
+3rd Place Award\\
+
+\vspace*{-12pt}
+\section{\textsc{Skill}}
+\textbf{Programming}: Skilled in C++, and familiar with Python, C\#, Java, and SQL language; Familiar with Object Oriented Programming, Speech Technology, Knowledge Graph, Search Relevance, Design Patterns, Machine Learning, Operating System and Compiler;  \\
+\vspace*{-6pt}
+\newline
+\textbf{Language}: Chinese (native), English (fluent)
+
+%%
+%% Nothing special here, just a normal table
+%%
+
+%\section{\textsc{Coursework}}
+ % \begin{tabular}{lllll}
+%Bayesian Networks   & \ \ & Machine Learning    & \ \ & Data Compression \\ 
+%Computer Vision      & \ \ & Signal Processing      & \ \ & Programming Languages \\
+%Algorithms        & \ \ & Data Structure    & \ \ & Artificial Intelligence\\
+%Operation Research      & \ \ & Optimization Methods          & \ \ & Mathematical Statistics \\
+%Numerical Analysis      & \ \ & Scientific Computing        & \ \ & Partial Differential Equations      \\
+%Probability Theory     & \ \ & Stochastic Process       & \ \ & Time Series      \\
+%\end{tabular}
+\end{resume}
+
+
+\end{document}
